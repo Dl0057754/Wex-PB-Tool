@@ -1,4 +1,6 @@
-streamlit
-pandas
-openpyxl
-google-generativeai
+streamlit==1.54.0
+pandas==2.3.3
+openpyxl==3.1.5
+requests==2.32.5
+beautifulsoup4==4.12.3
+lxml==4.9.4
