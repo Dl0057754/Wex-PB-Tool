@@ -1,15 +1,23 @@
-# app.py
+# Updated app.py
 
-# Removing Google Gemini API dependencies
+# Remove Google Gemini API requirements
 
-# Implementation of rule-based data extraction
+# Placeholder for the rule-based extraction logic
 
-def rule_based_data_extraction(data):
-    # Your logic for rule-based extraction goes here
+def extract_rules(data):
+    """ Extracts data based on predefined rules."""
+    # Implement extraction logic for all three templates
+    # Part + Labor Bundle
+    # Single Part
+    # Supplier Loader
     pass
 
+# Main function
+
+def main():
+    data = {}  # Replace with actual data input logic
+    extracted_data = extract_rules(data)
+    # Further processing of extracted_data
+
 if __name__ == '__main__':
-    # Sample input data
-    input_data = {}  # Replace with actual data
-    extracted_data = rule_based_data_extraction(input_data)
-    print(extracted_data)
+    main()
