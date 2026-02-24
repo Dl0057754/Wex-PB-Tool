@@ -1,30 +1,15 @@
-import streamlit as st
+# app.py
 
-# Access Streamlit secrets
-API_KEY = st.secrets['api_key']
+# Removing Google Gemini API dependencies
 
-# Template formatting methods
+# Implementation of rule-based data extraction
 
-def part_labor_bundle(data):
-    # Code to format for Part + Labor Bundle
+def rule_based_data_extraction(data):
+    # Your logic for rule-based extraction goes here
     pass
 
-
-def single_part(data):
-    # Code to format for Single Part
-    pass
-
-
-def supplier_loader(data):
-    # Code to format for Supplier Loader
-    pass
-
-# Main app logic
-selected_template = st.selectbox('Choose a template:', ['Part + Labor Bundle', 'Single Part', 'Supplier Loader'])
-
-if selected_template == 'Part + Labor Bundle':
-    part_labor_bundle(data)
-elif selected_template == 'Single Part':
-    single_part(data)
-elif selected_template == 'Supplier Loader':
-    supplier_loader(data)
+if __name__ == '__main__':
+    # Sample input data
+    input_data = {}  # Replace with actual data
+    extracted_data = rule_based_data_extraction(input_data)
+    print(extracted_data)
